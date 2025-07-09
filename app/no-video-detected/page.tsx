@@ -1,8 +1,6 @@
-import dynamic from 'next/dynamic'
+'use client'
 
-const NoVideoDetectedClient = dynamic(() => import('./NoVideoDetectedClient'), {
-  ssr: false
-})
+import NoVideoDetectedClient from './NoVideoDetectedClient'
 
 export default function NoVideoDetectedPage() {
   return <NoVideoDetectedClient />
