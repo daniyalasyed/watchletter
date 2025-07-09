@@ -1,5 +1,3 @@
-'use client'
-
 import NoVideoDetectedClient from './NoVideoDetectedClient'
 
 export default function NoVideoDetectedPage() {
